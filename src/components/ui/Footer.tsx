@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-auto">
+    <footer className="bg-[#070710] border-t border-white/[0.06] text-white/40 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white font-bold text-sm">P</div>
               <span className="font-bold text-xl text-white">Parchunewala</span>
             </div>
-            <p className="text-sm text-gray-400 leading-relaxed mb-4">
+            <p className="text-sm text-white/30 leading-relaxed mb-4">
               Your Area. Your Stores. Your App. Connecting neighborhoods with local businesses.
             </p>
             <div className="flex flex-col gap-2 text-sm">
@@ -56,9 +56,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-500">
+        <div className="border-t border-white/[0.06] mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-white/20">
           <p>© 2026 Parchunewala. All rights reserved.</p>
-          <p>Made with ❤️ for neighborhood commerce</p>
+          <p>Made with ❤️ for neighbourhood commerce</p>
         </div>
       </div>
     </footer>
